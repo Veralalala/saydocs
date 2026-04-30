@@ -8,10 +8,10 @@ description: >-
 
 ### Two product types
 
-| Name              | Code            | Summary                                                                                                                                                                                                                    |
-| ----------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Zero Loss**     | `REVIVAL`       | When the position reaches the loss threshold derived from `trigger_percent`, the system closes the position and pays the configured share of `isolatedMargin` based on `payout_percent`. The default is 100%.              |
-| **Double Profit** | `PROFIT_DOUBLE` | When the position reaches the margin ROI target derived from `trigger_percent`, the system closes the position and pays an additional configured share of `isolatedMargin` based on `payout_percent`. The default is 100%. |
+| Name              | Summary                                                                                                                                                                                                                    |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Zero Loss**     | When the position reaches the loss threshold derived from `trigger_percent`, the system closes the position and pays the configured share of `isolatedMargin` based on `payout_percent`. The default is 100%.              |
+| **Double Profit** | When the position reaches the margin ROI target derived from `trigger_percent`, the system closes the position and pays an additional configured share of `isolatedMargin` based on `payout_percent`. The default is 100%. |
 
 Both products attach to **isolated-margin** positions. In the API and data model, this appears as `insuranceType`.
 
@@ -36,7 +36,7 @@ Both products attach to **isolated-margin** positions. In the API and data model
 
 ### Both products can be active on the same position
 
-* A single position can hold one active `REVIVAL` policy and one active `PROFIT_DOUBLE` policy at the same time.
+* A single position can hold one active `ZERO LOSS` policy and one active `DOUBLE PROFIT` policy at the same time.
 * On actual trigger, only **one trigger reason** can apply.
 * This is not a dual-trigger race. Once either trigger is met, the system closes the **entire position**. After the position closes, the other product no longer has a valid trigger target.
 
