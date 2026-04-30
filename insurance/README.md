@@ -14,7 +14,7 @@ Use it to understand product types, pricing, policy states, trigger logic, and r
 
 ### What this section includes
 
-#### [Product](product.md)
+#### [Products](products.md)
 
 Explains the supported insurance types, key parameters, and combination rules:
 
@@ -38,7 +38,7 @@ Explains refund scenarios, refund reasons, and how refund amounts are determined
 
 ### Recommended reading order
 
-1. Start with [**Product**](product.md).
+1. Start with [**Products**](products.md).
 2. Continue with [**Pricing model**](pricing-model.md).
 3. Then read [**Policy life cycle**](policy-life-cycle.md) and [**Trigger conditions**](trigger-conditions.md).
 4. Finish with [**Refund rules**](refund-rules.md).

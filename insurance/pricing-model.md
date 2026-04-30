@@ -16,7 +16,7 @@ metaLinks:
 
 ### Related pages
 
-* [**Product**](product.md)
+* [**Products**](products.md)
 * [**Policy life cycle**](policy-life-cycle.md)
 * [**Trigger conditions**](trigger-conditions.md)
 * [**Refund rules**](refund-rules.md)

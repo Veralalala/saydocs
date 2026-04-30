@@ -18,7 +18,7 @@
   * [Liquidations](trading/liquidations.md)
   * [Fees](trading/fees.md)
 * [Insurance](insurance/README.md)
-  * [Product](insurance/product.md)
+  * [Products](insurance/products.md)
   * [Pricing model](insurance/pricing-model.md)
   * [Policy life cycle](insurance/policy-life-cycle.md)
   * [Trigger conditions](insurance/trigger-conditions.md)

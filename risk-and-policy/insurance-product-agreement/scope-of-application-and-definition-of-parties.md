@@ -14,7 +14,7 @@ The **trading protection products** covered by this agreement set mainly include
 * **Zero Loss Insurance**: attaches to an **isolated** position. If the agreed liquidation-prevention path is triggered, the product pays according to the policy terms. Current availability depends on deployed markets such as BTC and ETH.
 * **Double Profit Insurance**: pays extra benefits under agreed conditions such as reaching the floating-profit threshold. Supported markets and durations also depend on the live app configuration.
 
-These products are **not** life insurance, health insurance, or traditional property insurance. Premiums, durations such as `24h`, `72h`, and `168h`, and supported markets always follow the purchase confirmation screen and the [Product](../../insurance/product.md) page.
+These products are **not** life insurance, health insurance, or traditional property insurance. Premiums, durations such as `24h`, `72h`, and `168h`, and supported markets always follow the purchase confirmation screen and the [Products](../../insurance/products.md) page.
 
 ***
 

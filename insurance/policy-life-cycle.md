@@ -49,6 +49,6 @@ metaLinks:
 
 ### Related pages
 
-* [**Product**](product.md)
+* [**Products**](products.md)
 * [**Trigger conditions**](trigger-conditions.md)
 * [**Refund rules**](refund-rules.md)

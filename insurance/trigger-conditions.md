@@ -57,6 +57,6 @@ Within one position close event, **two policy types cannot trigger at the same t
 
 ### Related pages
 
-* [**Product**](product.md)
+* [**Products**](products.md)
 * [**Policy life cycle**](policy-life-cycle.md)
 * [**Refund rules**](refund-rules.md)
